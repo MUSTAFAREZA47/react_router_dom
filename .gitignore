@@ -1,0 +1,56 @@
+# Ignore node_modules folder (for Node.js projects)
+node_modules/
+
+# Ignore environment variable files
+.env
+.env.local
+.env.*.local
+
+# Ignore log files
+logs/
+*.log
+npm-debug.log*
+
+# Ignore OS-generated files
+.DS_Store
+Thumbs.db
+
+# Ignore build files
+dist/
+build/
+
+# Ignore package-lock.json (optional)
+package-lock.json
+
+# Ignore coverage folder (for testing tools like Jest)
+coverage/
+
+# Ignore compiled Python files
+*.pyc
+__pycache__/
+
+# Ignore IDE and editor settings
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Ignore generated files by macOS
+*.DS_Store
+
+# Ignore other common sensitive files
+*.key
+*.pem
+*.crt
+
+# Ignore temporary files
+*.tmp
+*.swp
+*.bak
+
+# Ignore logs from the bundler
+.yarn-integrity
+.pnp.*
+
+# Ignore Tailwind CSS build files
+public/build/
